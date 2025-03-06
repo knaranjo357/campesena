@@ -27,19 +27,12 @@ export const CertificationCard = ({
         </div>
         <h3 className="text-2xl font-bold text-gray-800 mb-3">{title}</h3>
         <p className="text-gray-600 mb-6">{description}</p>
-        <div className="space-y-4">
-          <div className="bg-green-50 p-4 rounded-lg">
-            <p className="text-sm text-green-800">
-              <span className="font-semibold">Requisito mínimo:</span> 6 meses de experiencia comprobable
-            </p>
-          </div>
-          <button
-            onClick={onContactClick}
-            className="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-green-700 transition-colors"
-          >
-            Quiero certificarme
-          </button>
-        </div>
+        <button
+          onClick={onContactClick}
+          className="w-full bg-green-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-green-700 transition-colors"
+        >
+          Quiero certificarme
+        </button>
       </div>
     </div>
   );

@@ -41,15 +41,15 @@ export const FAQ = () => {
     },
     {
       question: "¿Cómo puedo ayudar como líder comunitario?",
-      answer: "Como líder comunitario, puedes ayudar identificando personas que cumplan con los requisitos, organizando un lugar adecuado para las evaluaciones y coordinando una fecha que funcione para la mayoría. Tu apoyo es fundamental para el éxito del programa."
+      answer: "Como líder comunitario, puedes informar a la comunidad, sobre la certificación y sus beneficios, motivar a los trabajadores del campo a participar."
     },
     {
       question: "¿Qué documentos necesito para certificarme?",
-      answer: "Solo necesitas tu documento de identidad y evidencias de tu experiencia laboral (como fotos, testimonios o documentos que demuestren tu trabajo en el área que deseas certificar)."
+      answer: "Solo necesitas tu documento de tu cédula ya sea fotocopia y/o original"
     },
     {
       question: "¿Cuánto tiempo dura el proceso de certificación?",
-      answer: "El proceso completo suele durar 1-2 horas, dependiendo del número de participantes. Incluye la entrevista inicial, la evaluación práctica y el diligenciamiento de documentos."
+      answer: "4 horas."
     },
     {
       question: "¿Tiene algún costo la certificación?",

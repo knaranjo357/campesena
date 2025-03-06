@@ -1,9 +1,9 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { ProcessSteps } from './components/ProcessSteps';
+import { FAQ } from './components/FAQ';
 import { CertificationList } from './components/CertificationList';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
-import { FAQ } from './components/FAQ';
-import { ProcessSteps } from './components/ProcessSteps';
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
       <Header />
       <Hero />
       <ProcessSteps />
-      <CertificationList />
       <FAQ />
+      <CertificationList />
       <FloatingWhatsApp />
     </div>
   );
 }
 
-export default App;
+export default App

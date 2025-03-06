@@ -41,11 +41,11 @@ export const FAQ = () => {
     },
     {
       question: "¿Cómo puedo ayudar como líder comunitario?",
-      answer: "Como líder comunitario, puedes informar a la comunidad, sobre la certificación y sus beneficios, motivar a los trabajadores del campo a participar."
+      answer: "Puedes informar a la comunidad, sobre la certificación y sus beneficios, motivar a los trabajadores del campo a participar."
     },
     {
       question: "¿Qué documentos necesito para certificarme?",
-      answer: "Solo necesitas tu documento de tu cédula ya sea fotocopia y/o original"
+      answer: "Fotocopia de la cédula y/o física"
     },
     {
       question: "¿Cuánto tiempo dura el proceso de certificación?",

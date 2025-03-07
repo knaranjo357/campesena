@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, MapPin, Star } from 'lucide-react';
 
 export const Hero = () => {
   return (
@@ -11,6 +11,43 @@ export const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-green-800 mb-6">
             Estrategia CampeSENA: Certifica tu Experiencia Laboral
           </h1>
+
+          <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-1 rounded-xl mb-8 transform hover:scale-[1.02] transition-all">
+            <div className="bg-white rounded-lg p-6">
+              <div className="flex items-center justify-center gap-2 mb-4">
+                <Star className="w-6 h-6 text-yellow-500 fill-current" />
+                <h2 className="text-3xl font-bold text-blue-800">¡Proximamente en Socorro, Santander!</h2>
+                <Star className="w-6 h-6 text-yellow-500 fill-current" />
+              </div>
+              
+              <div className="bg-blue-50 p-4 rounded-xl">
+                <div className="grid md:grid-cols-3 gap-4 text-lg">
+                  <div className="flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                    <Calendar className="w-6 h-6 text-blue-600" />
+                    <div>
+                      <p className="font-semibold text-blue-800">Fecha</p>
+                      <p className="text-blue-700">28 de marzo 2025</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                    <Clock className="w-6 h-6 text-blue-600" />
+                    <div>
+                      <p className="font-semibold text-blue-800">Hora</p>
+                      <p className="text-blue-700">8:30am</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                    <MapPin className="w-6 h-6 text-blue-600" />
+                    <div>
+                      <p className="font-semibold text-blue-800">Lugar</p>
+                      <p className="text-blue-700">Cámara de Comercio Socorro</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-white p-8 rounded-2xl shadow-xl">
             <p className="text-xl md:text-2xl text-gray-700 mb-8">
               ¡Gran oportunidad para los campesinos! Certifica lo que ya sabes hacer sin necesidad de estudiar desde cero.

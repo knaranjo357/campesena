@@ -26,7 +26,7 @@ export const Hero = () => {
                     <Calendar className="w-6 h-6 text-blue-600" />
                     <div>
                       <p className="font-semibold text-blue-800">Fecha</p>
-                      <p className="text-blue-700">28 de marzo 2025</p>
+                      <p className="text-blue-700">27 de marzo 2025</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center gap-3 bg-white p-4 rounded-lg shadow-sm">
